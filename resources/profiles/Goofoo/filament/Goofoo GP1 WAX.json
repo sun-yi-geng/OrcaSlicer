@@ -1,0 +1,27 @@
+{
+  "type": "filament",
+  "setting_id": "GFG_V022",
+  "name": "Goofoo GP1 WAX",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_filament_pla",
+  "compatible_printers": [
+    "Goofoo GP1 0.4 nozzle"
+  ],
+  "filament_max_volumetric_speed": [
+    "8"
+  ],
+  "hot_plate_temp": [
+    "50"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "50"
+  ],
+
+  "nozzle_temperature": [
+    "210"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "210"
+  ]
+}

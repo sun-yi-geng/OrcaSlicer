@@ -1,0 +1,19 @@
+{
+  "type": "filament",
+  "setting_id": "GFG_V005",
+  "name": "Goofoo Velo+ PA",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_filament_pa",
+  "filament_max_volumetric_speed": [
+    "12"
+  ],
+  "reduce_fan_stop_start_freq": [
+    "1"
+  ],
+  "compatible_printers": [
+    "Goofoo Velo+ 0.2 nozzle",
+    "Goofoo Velo+ 0.4 nozzle",
+    "Goofoo Velo+ 0.6 nozzle"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "filament",
+  "setting_id": "GFG_V024",
+  "name": "Goofoo GP1 PETG",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_filament_pet",
+  "compatible_printers": [
+    "Goofoo GP1 0.4 nozzle"
+  ],
+
+  "filament_flow_ratio": [
+    "1.1"
+  ],
+  "filament_max_volumetric_speed": [
+    "6"
+  ],
+  "hot_plate_temp": [
+    "70"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "70"
+  ],
+  "nozzle_temperature": [
+    "240"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "240"
+  ]
+}

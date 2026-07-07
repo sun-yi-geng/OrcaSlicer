@@ -1,0 +1,29 @@
+{
+  "type": "filament",
+  "setting_id": "GFG_V028",
+  "name": "Goofoo GP1 PA-GF",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "Fiberon PA6-GF @System",
+  "compatible_printers": [
+    "Goofoo GP1 0.4 nozzle"
+  ],
+  "filament_flow_ratio": [
+    "1.1"
+  ],
+  "filament_max_volumetric_speed": [
+    "6"
+  ],
+  "hot_plate_temp": [
+    "75"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "75"
+  ],
+  "nozzle_temperature": [
+    "275"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "275"
+  ]
+}

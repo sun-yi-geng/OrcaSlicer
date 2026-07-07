@@ -1,0 +1,17 @@
+{
+  "type": "filament",
+  "setting_id": "GFG_V023",
+  "name": "Goofoo GP1 PLA",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_filament_pla",
+  "compatible_printers": [
+    "Goofoo GP1 0.4 nozzle"
+  ],
+  "hot_plate_temp": [
+    "50"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "50"
+  ]
+}
