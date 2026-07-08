@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "Goofoo TurboM PLA Silk @System",
 	"from": "system",
-	"setting_id": "TBSYS021",
+	"setting_id": "WDCVTjCHHMExzFil",
 	"instantiation": "true",
 	"inherits": "Goofoo TurboM PLA Silk @base",
 	"compatible_printers": []

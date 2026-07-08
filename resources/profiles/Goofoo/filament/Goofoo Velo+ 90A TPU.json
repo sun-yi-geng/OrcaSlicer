@@ -3,7 +3,7 @@
   "name": "Goofoo Velo+ 90A TPU",
   "inherits": "fdm_filament_tpu",
   "from": "system",
-  "setting_id": "GFG_V019",
+  "setting_id": "ns4Ucjn7nFGJENql",
   "instantiation": "true",
   "fan_cooling_layer_time": [
     "60"

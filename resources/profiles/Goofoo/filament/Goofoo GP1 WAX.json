@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V022",
   "name": "Goofoo GP1 WAX",
   "from": "system",
+  "setting_id": "m9Id7HG4sPhx5P7z",
   "instantiation": "true",
   "inherits": "fdm_filament_pla",
   "compatible_printers": [

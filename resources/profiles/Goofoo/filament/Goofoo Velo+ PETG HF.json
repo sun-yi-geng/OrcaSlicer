@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_F008",
   "name": "Goofoo Velo+ PETG HF",
   "from": "system",
+  "setting_id": "zx4M9qQR2l5ppY7K",
   "instantiation": "true",
   "inherits": "Generic PETG HF @System",
   "compatible_printers": [

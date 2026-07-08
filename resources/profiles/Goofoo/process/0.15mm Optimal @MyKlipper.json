@@ -3,7 +3,7 @@
 	"name": "0.15mm Optimal @MyKlipper",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
-	"setting_id": "GP004",
+	"setting_id": "Y5nLI709mwcVrYRC",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"top_shell_layers": "5",
@@ -15,10 +15,6 @@
 		"MyKlipper 0.4 nozzle",
 		"MyKlipper 0.2 nozzle",
 		"MyKlipper 0.6 nozzle",
-		"Goofoo Velo+ 0.2 nozzle",
-		"Goofoo Velo+ 0.4 nozzle",
-		"Goofoo Velo+ 0.6 nozzle",
-		"Goofoo TurboM 0.4 nozzle",
-		"Goofoo GP1 0.4 nozzle"
+		"MyKlipper 0.8 nozzle"
 	]
 }

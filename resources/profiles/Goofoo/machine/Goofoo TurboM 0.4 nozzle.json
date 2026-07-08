@@ -3,7 +3,7 @@
   "name": "Goofoo TurboM 0.4 nozzle",
   "inherits": "MyKlipper 0.4 nozzle",
   "from": "system",
-  "setting_id": "GM007",
+  "setting_id": "Wmdn5zTy1HH93Q5d",
   "instantiation": "true",
   "nozzle_diameter": [
     "0.4"

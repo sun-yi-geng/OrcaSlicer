@@ -2,8 +2,8 @@
   "type": "process",
   "name": "0.20mm TurboM @Goofoo",
   "inherits": "0.20mm Standard @MyKlipper",
-  "setting_id": "GPGF003",
   "from": "system",
+  "setting_id": "gMM6EVerOIxuS81f",
   "instantiation": "true",
   "compatible_printers": [
     "Goofoo TurboM 0.4 nozzle"

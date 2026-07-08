@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V007",
   "name": "Goofoo Velo+ PE",
   "from": "system",
+  "setting_id": "ukLMxqoNGKPvRgcb",
   "instantiation": "true",
   "inherits": "fdm_filament_pe",
   "compatible_printers": [

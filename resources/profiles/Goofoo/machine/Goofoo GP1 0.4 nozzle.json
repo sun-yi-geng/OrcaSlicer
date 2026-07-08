@@ -3,7 +3,7 @@
   "name": "Goofoo GP1 0.4 nozzle",
   "inherits": "MyKlipper 0.4 nozzle",
   "from": "system",
-  "setting_id": "GM009",
+  "setting_id": "x4GJ08PooNDQ8WJj",
   "instantiation": "true",
   "nozzle_diameter": [
     "0.4"

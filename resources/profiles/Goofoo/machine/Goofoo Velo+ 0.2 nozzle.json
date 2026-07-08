@@ -3,7 +3,7 @@
   "name": "Goofoo Velo+ 0.2 nozzle",
   "inherits": "MyKlipper 0.2 nozzle",
   "from": "system",
-  "setting_id": "GM006",
+  "setting_id": "wSr6VNECZHekeNRi",
   "instantiation": "true",
   "nozzle_diameter": [
     "0.2"

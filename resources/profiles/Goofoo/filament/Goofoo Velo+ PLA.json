@@ -3,7 +3,7 @@
   "name": "Goofoo Velo+ PLA",
   "inherits": "fdm_filament_pla",
   "from": "system",
-  "setting_id": "GFG_V014",
+  "setting_id": "6BEKhh6HwiUz9423",
   "instantiation": "true",
   "hot_plate_temp": [
     "40"

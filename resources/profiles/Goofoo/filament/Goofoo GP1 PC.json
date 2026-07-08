@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V025",
   "name": "Goofoo GP1 PC",
   "from": "system",
+  "setting_id": "kSRP9dANxkLyfULa",
   "instantiation": "true",
   "inherits": "fdm_filament_pc",
   "compatible_printers": [

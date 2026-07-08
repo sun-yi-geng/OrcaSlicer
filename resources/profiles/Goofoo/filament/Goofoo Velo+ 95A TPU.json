@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V020",
   "name": "Goofoo Velo+ 95A TPU",
   "from": "system",
+  "setting_id": "S5uHEqyx14uek5Gs",
   "instantiation": "true",
   "inherits": "fdm_filament_tpu",
   "fan_cooling_layer_time": [

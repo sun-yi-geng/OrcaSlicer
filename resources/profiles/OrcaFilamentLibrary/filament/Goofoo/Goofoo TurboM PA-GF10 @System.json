@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "Goofoo TurboM PA-GF10 @System",
 	"from": "system",
-	"setting_id": "TBSYS010",
+	"setting_id": "Pr5Sume1UtZPjPmz",
 	"instantiation": "true",
 	"inherits": "Goofoo TurboM PA-GF10 @base",
 	"compatible_printers": []

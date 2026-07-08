@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V028",
   "name": "Goofoo GP1 PA-GF",
   "from": "system",
+  "setting_id": "mFuYKvjM9CZfbVvA",
   "instantiation": "true",
   "inherits": "Fiberon PA6-GF @System",
   "compatible_printers": [

@@ -3,7 +3,7 @@
   "name": "Goofoo Velo+ PETG",
   "inherits": "fdm_filament_pet",
   "from": "system",
-  "setting_id": "GFG_V010",
+  "setting_id": "dM0sBRXAmlDIYBGU",
   "instantiation": "true",
   "hot_plate_temp": [
     "80"

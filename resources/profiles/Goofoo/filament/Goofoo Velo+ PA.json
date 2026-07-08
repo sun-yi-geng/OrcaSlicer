@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V005",
   "name": "Goofoo Velo+ PA",
   "from": "system",
+  "setting_id": "X9ZxK9kEXm0SDIp3",
   "instantiation": "true",
   "inherits": "fdm_filament_pa",
   "filament_max_volumetric_speed": [

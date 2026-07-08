@@ -2,8 +2,8 @@
   "type": "process",
   "name": "0.20mm GP1 @Goofoo",
   "inherits": "0.20mm Standard @MyKlipper",
-  "setting_id": "GPGF002",
   "from": "system",
+  "setting_id": "tLK2IpnCRLbLIUg4",
   "instantiation": "true",
   "compatible_printers": [
     "Goofoo GP1 0.4 nozzle"

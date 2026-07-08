@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V012",
   "name": "Goofoo Velo+ PLA Silk",
   "from": "system",
+  "setting_id": "lo1iDHUNNKUUCZFy",
   "instantiation": "true",
   "inherits": "Generic PLA Silk @System",
   "compatible_printers": [

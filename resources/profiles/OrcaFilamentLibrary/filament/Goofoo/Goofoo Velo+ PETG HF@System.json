@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "Goofoo Velo+ PETG HF@System",
 	"from": "system",
-	"setting_id": "SYS017",
+	"setting_id": "V1adMVHTdbehGXu4",
 	"instantiation": "true",
 	"inherits": "Goofoo Velo+ PETG HF@base",
 	"compatible_printers": []

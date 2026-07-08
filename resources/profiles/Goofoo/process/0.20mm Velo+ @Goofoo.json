@@ -2,8 +2,8 @@
   "type": "process",
   "name": "0.20mm Velo+ @Goofoo",
   "inherits": "0.20mm Standard @MyKlipper",
-  "setting_id": "GPGF001",
   "from": "system",
+  "setting_id": "DmmsHo7Q0v3hltV9",
   "instantiation": "true",
   "compatible_printers": [
     "Goofoo Velo+ 0.2 nozzle",

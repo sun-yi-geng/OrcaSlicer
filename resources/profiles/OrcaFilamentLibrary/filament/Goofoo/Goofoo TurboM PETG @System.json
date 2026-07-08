@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "Goofoo TurboM PETG @System",
 	"from": "system",
-	"setting_id": "TBSYS016",
+	"setting_id": "e2yIBbaMiWeX26WQ",
 	"instantiation": "true",
 	"inherits": "Goofoo TurboM PETG @base",
 	"compatible_printers": []

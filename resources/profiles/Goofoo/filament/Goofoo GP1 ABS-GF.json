@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V026",
   "name": "Goofoo GP1 ABS-GF",
   "from": "system",
+  "setting_id": "X7h60eOqIA2b25zD",
   "instantiation": "true",
   "inherits": "fdm_filament_abs",
   "compatible_printers": [

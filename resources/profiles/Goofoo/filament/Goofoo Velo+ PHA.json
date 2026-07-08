@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V011",
   "name": "Goofoo Velo+ PHA",
   "from": "system",
+  "setting_id": "tdrLEJup86zgIPOd",
   "instantiation": "true",
   "inherits": "fdm_filament_pha",
   "compatible_printers": [

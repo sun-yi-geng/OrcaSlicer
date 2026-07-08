@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V013",
   "name": "Goofoo Velo+ PLA-CF",
   "from": "system",
+  "setting_id": "tK7uGlhkpNPARdn9",
   "instantiation": "true",
   "inherits": "Generic PLA-CF @System",
   "filament_flow_ratio": [

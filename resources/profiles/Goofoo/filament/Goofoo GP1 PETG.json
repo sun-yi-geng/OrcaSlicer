@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V024",
   "name": "Goofoo GP1 PETG",
   "from": "system",
+  "setting_id": "MhZ6lvUUMQBYTIoi",
   "instantiation": "true",
   "inherits": "fdm_filament_pet",
   "compatible_printers": [

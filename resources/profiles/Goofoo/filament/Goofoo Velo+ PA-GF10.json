@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V004", 
   "name": "Goofoo Velo+ PA-GF10",
   "from": "system",
+  "setting_id": "EAUA9dMN2AOxpSva",
   "instantiation": "true",
   "inherits": "Generic PA-CF @System",
   "nozzle_temperature": [

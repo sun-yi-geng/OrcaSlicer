@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V018",
   "name": "Goofoo Velo+ PVA",
   "from": "system",
+  "setting_id": "b8HpOqfEvT5hFuxy",
   "instantiation": "true",
   "inherits": "fdm_filament_pva",
   "compatible_printers": [

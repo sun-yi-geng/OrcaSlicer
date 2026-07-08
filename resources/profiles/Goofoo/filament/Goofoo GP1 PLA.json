@@ -1,8 +1,8 @@
 {
   "type": "filament",
-  "setting_id": "GFG_V023",
   "name": "Goofoo GP1 PLA",
   "from": "system",
+  "setting_id": "gpeILK59cVoNs1eA",
   "instantiation": "true",
   "inherits": "fdm_filament_pla",
   "compatible_printers": [
