@@ -470,6 +470,8 @@ void Preset::normalize(DynamicPrintConfig &config)
                 continue;
             if (filament_options_with_variant.find(key) != filament_options_with_variant.end())
                 continue;
+            if (filament_dev_options.find(key) != filament_dev_options.end())
+                continue;
             auto *opt = config.option(key, false);
             /*assert(opt != nullptr);
             assert(opt->is_vector());*/
@@ -1046,6 +1048,8 @@ static std::vector<std::string> s_Preset_print_options{
     "top_surface_expansion_margin",
     "top_surface_expansion_direction",
     "bottom_surface_pattern",
+    "top_surface_fill_order",
+    "bottom_surface_fill_order",
     "infill_direction",
     "solid_infill_direction",
     "top_layer_direction",
@@ -1061,7 +1065,6 @@ static std::vector<std::string> s_Preset_print_options{
     "skin_infill_density",
     "align_infill_direction_to_model",
     "extra_solid_infills",
-    "anisotropic_surfaces",
     "center_of_surface_pattern",
     "separated_infills",
     "minimum_sparse_infill_area",
@@ -1307,7 +1310,6 @@ static std::vector<std::string> s_Preset_print_options{
     "interlocking_depth",
     "interlocking_boundary_avoidance",
     "interlocking_beam_width",
-    "calib_flowrate_topinfill_special_order",
     // Z Anti-Aliasing (ZAA)
     "zaa_enabled",
     "zaa_minimize_perimeter_height",
@@ -1333,8 +1335,20 @@ static std::vector<std::string> s_Preset_filament_options {/*"filament_colour", 
     //exhaust fan control
     "activate_air_filtration","activate_air_filtration_during_print","activate_air_filtration_on_completion","during_print_exhaust_fan_speed","complete_print_exhaust_fan_speed",
     // Retract overrides
-    "filament_retraction_length", "filament_z_hop", "filament_z_hop_types", "filament_retract_lift_above", "filament_retract_lift_below", "filament_retract_lift_enforce", "filament_retraction_speed", "filament_deretraction_speed", "filament_retract_restart_extra", "filament_retraction_minimum_travel",
-    "filament_retract_when_changing_layer", "filament_wipe", "filament_retract_before_wipe",
+    "filament_deretraction_speed",
+    "filament_retract_after_wipe", // Orca
+    "filament_retract_before_wipe",
+    "filament_retract_lift_above",
+    "filament_retract_lift_below",
+    "filament_retract_lift_enforce",
+    "filament_retract_restart_extra",
+    "filament_retract_when_changing_layer",
+    "filament_retraction_length",
+    "filament_retraction_minimum_travel",
+    "filament_retraction_speed",
+    "filament_wipe",
+    "filament_z_hop",
+    "filament_z_hop_types",
     // Profile compatibility
     "filament_vendor", "compatible_prints", "compatible_prints_condition", "compatible_printers", "compatible_printers_condition", "inherits",
     //BBS
@@ -1359,7 +1373,11 @@ static std::vector<std::string> s_Preset_filament_options {/*"filament_colour", 
     "filament_pre_cooling_temperature", "filament_pre_cooling_temperature_nc",
     "filament_preheat_temperature_delta", "filament_retract_length_nc",
     "filament_change_length_nc", "filament_prime_volume_nc",
-    "long_retractions_when_ec", "retraction_distances_when_ec"
+    "long_retractions_when_ec", "retraction_distances_when_ec",
+    //ams chamber
+    "filament_dev_ams_drying_ams_limitations", "filament_dev_ams_drying_temperature", "filament_dev_ams_drying_time", "filament_dev_ams_drying_heat_distortion_temperature",
+    "filament_dev_chamber_drying_bed_temperature", "filament_dev_chamber_drying_time",
+    "filament_dev_drying_softening_temperature", "filament_dev_drying_cooling_temperature"
     };
 
 static std::vector<std::string> s_Preset_machine_limits_options {
@@ -3798,6 +3816,26 @@ void PresetCollection::set_custom_preset_alias(Preset &preset)
     preset.alias = std::move(alias_name);
     m_map_alias_to_profile_name[preset.alias].push_back(preset.name);
     set_printer_hold_alias(preset.alias, preset);
+}
+
+std::string PresetCollection::get_preset_alias(Preset &preset, bool force)
+{
+    if (!preset.alias.empty())
+        return preset.alias;
+    else
+        set_custom_preset_alias(preset);
+
+    if (!preset.alias.empty() || !force)
+        return preset.alias;
+
+    std::string alias_name;
+    std::string preset_name = preset.name;
+    size_t      end_pos     = preset_name.find_first_of("@");
+    if (end_pos != std::string::npos) {
+        alias_name = preset_name.substr(0, end_pos);
+        boost::trim_right(alias_name);
+    }
+    return alias_name;
 }
 
 void PresetCollection::set_printer_hold_alias(const std::string &alias, Preset &preset, bool remove)
